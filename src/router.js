@@ -26,6 +26,18 @@ const routes = [
     {
         path: '/content-test',
         component: import('./components/content-test.vue')
+    },
+    {
+        path: '/fullCalendar',
+        component: import('./components/fullCalendar.vue')
+    },
+    {
+        path: '/vvt',
+        component: import('./components/vvt.vue')
+    },
+    {
+        path: '/better-scroll-test',
+        component: import('./components/better-scroll-test.vue')
     }
 ]
 const router = createRouter({

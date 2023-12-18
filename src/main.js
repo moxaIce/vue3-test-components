@@ -4,7 +4,8 @@ import App from './App.vue'
 import router from './router';
 
 import ElementPlus from 'element-plus'
-import '../theme-chalk/dist/index.css'
+import '@xiaoe/eai-theme'
+// new EventSource()
 
 const app = createApp(App)
 app.use(router)

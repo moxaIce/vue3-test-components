@@ -1,32 +1,20 @@
 <template>
-    <el-tabs v-model="activeName" class="demo-tabs" @tab-click="handleClick">
-   
-        <el-tab-pane v-for="item in listTab" :key="item.value" :label="item.label" :name="item.value">
-            <div v-if="'first' === activeName">
-                11
-            </div>
-            <name v-else></name>
-        </el-tab-pane>
-        
-        <!-- <el-tab-pane label="User" name="first">
-        111
-        </el-tab-pane>
-        <el-tab-pane label="Config" name="second">
-            
-        </el-tab-pane> -->
 
-    </el-tabs>
- 
-
+<div>
+    <button @click="showPlan">click</button>
+    <div class="test" ref="aaa">
+        <div>日程</div>
+        {{ data.name }}
+    </div>
+</div>
 </template>
 
 <script setup>
 import { ref, nextTick } from 'vue';
-import name from './name.vue'
+
 const data = ref({})
 const activeName = ref('first')
 const aaa = ref(null)
-
 const listTab = [{
     label: 'first',
     value: 'first'

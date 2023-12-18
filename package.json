@@ -10,15 +10,21 @@
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.1.0",
+    "@fullcalendar/core": "^6.1.10",
+    "@fullcalendar/daygrid": "^6.1.10",
     "@xiaoe/ai-content-plugin": "2.0.2-dev1",
+    "@xiaoe/eai-theme": "1.0.0-t1",
+    "better-scroll": "^2.5.1",
     "element-plus": "^2.4.2",
+    "iscroll": "^5.2.0",
     "vditor": "^3.9.5",
-    "vue": "^3.3.4",
+    "vue": "3.2.25",
     "vue-router": "4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
     "axios": "^1.6.1",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-mkcert": "^1.17.1"
   }
 }
